@@ -1,0 +1,316 @@
+*{
+	margin: 0;
+}
+
+header{
+    display: flex;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 70px;
+	display: inline-flex;
+}
+
+.logo img {
+	height: 90px;
+	width: 90px;
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-top: -5x;
+}
+
+.text4logo {
+	text-decoration: none;
+	color: black;
+	font-family: "pacifico", sans-serif;
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+#intro{
+    width: 65%;
+    background-image: url("loginimages/rightlog.jpg");
+    height: 670px;
+    background-size: cover;
+}
+#content-one{
+    height: 400px;
+    width: 500px;
+    background-color: aliceblue;
+    margin: auto;
+    float: left;
+    margin-left: -98px;
+    margin-top: 131px;
+    opacity: 90%;
+    border-radius: 2%;
+}
+
+#text-left{
+    padding: 20px;
+}
+
+#text-left h1{
+    font-size: 35px;
+    font-family: "League Spartan", sans-serif;
+}
+
+#text-left hr{
+    width: 433px;
+    background-color:black;
+    border: 0 none;
+    color: black;
+    height: 5px;
+}
+
+#text-left p{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: "Glory", sans-serif;
+}
+
+#login-area{
+    background-color: #FDFD96;
+    width: 35%;
+    text-align: center;
+    height: 670px;
+}
+
+#login-area h1{
+    font-size: 50px;
+    font-family: "League Spartan", sans-serif;
+    margin-top: 120px;
+}
+
+#formbox{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 38px;
+    border-radius: 6%;
+}
+
+#formbox p{
+    padding-top: 25px;
+    font-size: 18px;
+    font-family: "Glory", sans-serif;
+    margin-bottom: 30px;
+}
+
+#psw::after{
+    content: "*";
+    color: red;
+    margin-right: 2px;
+}
+
+#usr::after{
+    content: "*";
+    color: red;
+    margin-right: 2px;
+}
+
+input {
+    border-radius: 18px;
+}
+
+input:focus {
+	outline: none;
+}
+
+#forgotp a {
+	text-decoration: none;
+	font-size: 15px;
+	font-style: italic;
+    color: black;;
+}
+
+#usr, #psw{
+    font-size: 20px;
+    font-family: "Glory", sans-serif;
+}
+
+#username, #password{
+    border: solid 2px black;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+#username:hover{
+	border:solid 2px black;
+	background-color: #FFF44F;
+}
+
+#password:hover{
+    border:solid 2px black;
+	background-color: #FFF44F;
+}
+
+#user, #pass{
+    margin-bottom: -10px;
+}
+
+#failed{
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+    font-family: "Glory", sans-serif;
+    margin-top: -16px;
+    margin-bottom: 16px;
+}
+
+#loginb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    color: black;
+    background-color: #FDFD96;
+    font-family: "Glory", sans-serif;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#F5E050;
+    color:#4b4c4d;
+}
+  
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    display: flex;
+    justify-content: center;
+}
+ 
+.footer-basic li {
+    color: black;
+    padding:0 10px;
+    font-family: "League Spartan", sans-serif;
+}
+  
+.footer-basic ul a {
+    color:black;
+    text-decoration:none;
+}
+  
+.footer-basic ul a:hover {
+    opacity:0.8;
+}
+
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+}
+  
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    margin:0 15px;
+    color:black;
+}
+  
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:dimgray;
+    font-family: "League Spartan", sans-serif;
+    margin-bottom:0;
+}
+  
+.dummyweb {
+    font-size:15px;
+    text-align:center;
+    margin:15px;
+    color:black;
+    font-family: "League Spartan", sans-serif;
+}
+
+.social img {
+    zoom: 0.8;
+}
+  
+.social #facebook {
+    background: url('loginimages/icon.png') no-repeat 0px -168px; 
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+}
+  
+.social #gmail {
+    background: url('loginimages/icon.png') no-repeat -252px -168px; 
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+}
+  
+.social #youtube {
+    background: url('loginimages/icon.png') no-repeat -840px -168px; 
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+}
+  
+.social #twitter {
+    background: url('loginimages/icon.png') no-repeat -672px -168px; 
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+}
+  
+.social #facebook:hover{
+    background: url('loginimages/icon.png') no-repeat 0px -84px; 
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+}
+  
+.social #gmail:hover{
+    background: url('loginimages/icon.png') no-repeat -252px -84px; 
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+}
+  
+.social #youtube:hover{
+    background: url('loginimages/icon.png') no-repeat -840px -84px;
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+}
+  
+.social #twitter:hover{
+    background: url("loginimages/icon.png") no-repeat -672px -84px;
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+}
+  
+.social #facebook:active {
+    background: url('loginimages/icon.png') no-repeat 0px -84px; 
+    border-radius: 7px;
+}
+  
+.social #gmail:active {
+    background: url('loginimages/icon.png') no-repeat -252px -84px; 
+    border-radius: 7px;
+}
+  
+.social #youtube:active {
+    background: url('loginimages/icon.png') no-repeat -840px -84px; 
+    border-radius: 7px;
+}
+  
+.social #twitter:active {
+    background: url("loginimages/icon.png") no-repeat -672px -84px;
+    border-radius: 7px;
+}
